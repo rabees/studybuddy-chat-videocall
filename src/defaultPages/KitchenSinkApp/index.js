@@ -59,7 +59,7 @@ class KitchenSinkApp extends React.PureComponent {
 
     let authRedirect = null;
     if (this.props.isLoggedIn) {
-      authRedirect = <Redirect to="/" />
+      authRedirect = <Redirect to="/chat" />
     }
 
     return (
